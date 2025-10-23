@@ -30,7 +30,7 @@ def shorten(req: str):
 
     res = {
         "message": "Successfully created",
-        "newURL": "http://localhost:8000/DujpY/"+val
+        "newURL": "https://url-shortner-lon6.onrender.com/"+val
     }
     return JSONResponse(res)
 
